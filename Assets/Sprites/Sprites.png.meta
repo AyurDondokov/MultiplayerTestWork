@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites_1
+      name: Coin
       rect:
         serializedVersion: 2
         x: 66
@@ -144,7 +144,7 @@ TextureImporter:
         width: 168
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_3
+      name: Head
       rect:
         serializedVersion: 2
         x: 236
@@ -165,7 +165,7 @@ TextureImporter:
         width: 161
         height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_7
+      name: GunHoriz
       rect:
         serializedVersion: 2
         x: 399
@@ -186,7 +186,7 @@ TextureImporter:
         width: 146
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_8
+      name: UIPanel
       rect:
         serializedVersion: 2
         x: 0
@@ -207,8 +207,8 @@ TextureImporter:
         width: 235
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 60, y: 47, z: 58, w: 45}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_12
+      name: Bullet
       rect:
         serializedVersion: 2
         x: 444
@@ -228,7 +228,7 @@ TextureImporter:
         width: 36
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_13
+      name: Leg
       rect:
         serializedVersion: 2
         x: 444
@@ -249,7 +249,7 @@ TextureImporter:
         width: 36
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_0
+      name: Arm
       rect:
         serializedVersion: 2
         x: 242
@@ -270,7 +270,7 @@ TextureImporter:
         width: 38
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_2
+      name: Body
       rect:
         serializedVersion: 2
         x: 282
@@ -291,7 +291,7 @@ TextureImporter:
         width: 101
         height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,7 +304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_4
+      name: GunVert
       rect:
         serializedVersion: 2
         x: 386
@@ -312,7 +312,7 @@ TextureImporter:
         width: 57
         height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,6 +320,27 @@ TextureImporter:
       bones: []
       spriteID: 486fc9f595d7ccd488fe178ebddd0767
       internalID: -951840938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 214
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee49f4f9965380d449829bf1ea658355
+      internalID: -914513237
       vertices: []
       indices: 
       edges: []
@@ -335,20 +356,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprites_0: 1022194749
-      Sprites_1: -5886965
+      Arm: 1022194749
+      Body: -2073996000
+      Bullet: 2054803335
+      Coin: -5886965
+      GunHoriz: -779829641
+      GunVert: -951840938
+      Head: -1347893216
+      Leg: 1621597900
       Sprites_10: 1457234143
       Sprites_11: -701233170
-      Sprites_12: 2054803335
-      Sprites_13: 1621597900
-      Sprites_2: -2073996000
-      Sprites_3: -1347893216
-      Sprites_4: -951840938
       Sprites_5: -914513237
       Sprites_6: -846293193
-      Sprites_7: -779829641
-      Sprites_8: 1535283279
       Sprites_9: -1295669907
+      UIPanel: 1535283279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
