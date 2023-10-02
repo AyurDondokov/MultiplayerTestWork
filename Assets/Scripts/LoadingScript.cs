@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
+using TMPro; 
 
 public class LoadingScript : MonoBehaviour
 {
@@ -15,7 +15,7 @@ public class LoadingScript : MonoBehaviour
 
     void Start()
     {
-        scene = "Level " + Random.Range(1, 6).ToString();
+        scene = "Lobby";
         StartCoroutine(AsyncLoad());
     }
 
